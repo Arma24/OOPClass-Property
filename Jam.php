@@ -4,22 +4,22 @@
 class Jam {
  
 	// property
-	public $warna;
-	public $jumlah;
-	public $ukuran;
+	public $WarnaJam;
+	public $JumlahJam;
+	public $UkuranJam;
 
 }
 
 $jam = new Jam();
 
 // memberikan nilai pada property
-$jam->warna = "Putih";
-$jam->jumlah = 1;
-$jam->ukuran = "Besar";
+$jam->WarnaJam = "Putih";
+$jam->JumlahJam = 1;
+$jam->UkuranJam = "Besar";
 
 // mencetak hasil
-echo "Warna jam : ".$jam->warna."<br>";
-echo "Jumlah : ".$jam->jumlah."<br>";
-echo "Ukuran : ".$jam->ukuran."<br>";
+echo "Warna jam : ".$jam->WarnaJam."<br>";
+echo "Jumlah : ".$jam->JumlahJam."<br>";
+echo "Ukuran : ".$jam->UkuranJam."<br>";
 
 ?>

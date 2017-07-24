@@ -4,19 +4,19 @@
 class Jendela {
  
 	// property
-	public $jumlah;
-	public $keterangan;
+	public $JumlahJendela;
+	public $KeteranganJendela;
 
 }
 
 $jendela = new Jendela();
 
 // memberikan nilai pada property
-$jendela->jumlah = 3;
-$jendela->keterangan = "Tertutup semua";
+$jendela->JumlahJendela = 3;
+$jendela->KeteranganJendela = "Tertutup semua";
 
 // mencetak hasil
-echo "Jumlah : ".$jendela->jumlah."<br>";
-echo "Keterangan : ".$jendela->keterangan."<br>";
+echo "Jumlah jendela : ".$jendela->JumlahJendela."<br>";
+echo "Keterangan : ".$jendela->KeteranganJendela."<br>";
 
 ?>

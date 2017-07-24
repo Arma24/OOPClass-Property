@@ -4,19 +4,19 @@
 class Tas {
  
 	// property
-	public $jumlah;
-	public $ukuran;
+	public $JumlahTas;
+	public $UkuranTas;
 
 }
 
 $tas = new Tas();
 
 // memberikan nilai pada property
-$tas->jumlah = 6;
-$tas->ukuran = "Sedang";
+$tas->JumlahTas = 6;
+$tas->UkuranTas = "Sedang";
 
 // mencetak hasil
-echo "Jumlah tas : ".$tas->jumlah."<br>";
-echo "Ukuran : ".$tas->ukuran."<br>";
+echo "Jumlah tas : ".$tas->JumlahTas."<br>";
+echo "Ukuran : ".$tas->UkuranTas."<br>";
 
 ?>

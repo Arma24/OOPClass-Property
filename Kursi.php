@@ -4,21 +4,21 @@
 class Kursi {
  
 	// property
-	public $warna;
-	public $jumlah;
+	public $WarnaKursi;
+	public $Jumlah;
 
 }
 
 $kursi = new Kursi();
 
 // memberikan nilai pada property
-$kursi->warna = "Hijau dan Putih";
-$kursi->jumlahhijau = 2;
-$kursi->jumlahputih = 10;
+$kursi->WarnaKursi = "Hijau dan Putih";
+$kursi->JumlahKursiHijau = 2;
+$kursi->JumlahKursiPutih = 10;
 
 // mencetak hasil
-echo "Warna kursi : ".$kursi->warna."<br>";
-echo "Jumlah kursi hijau : ".$kursi->jumlahhijau."<br>";
-echo "Jumlah kursi putih : ".$kursi->jumlahputih."<br>";
+echo "Warna kursi : ".$kursi->WarnaKursi."<br>";
+echo "Jumlah kursi hijau : ".$kursi->JumlahKursiHijau."<br>";
+echo "Jumlah kursi putih : ".$kursi->JumlahKursiPutih."<br>";
 
 ?>

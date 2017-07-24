@@ -4,8 +4,8 @@
 class Kasur {
  
 	// property
-	public $jumlah;
-	public $ukuran;
+	public $JumlahKasur;
+	public $UkuranKasur;
 
 
 }
@@ -13,11 +13,11 @@ class Kasur {
 $kasur = new Kasur();
 
 // memberikan nilai pada property
-$kasur->jumlah = 3;
-$kasur->ukuran = "Sedang/Medium";
+$kasur->JumlahKasur = 3;
+$kasur->UkuranKasur = "Sedang/Medium";
 
 // mencetak hasil
-echo "Jumlah kasur : ".$kasur->jumlah."<br>";
-echo "Ukuran : ".$kasur->ukuran."<br>";
+echo "Jumlah kasur : ".$kasur->JumlahKasur."<br>";
+echo "Ukuran : ".$kasur->UkuranKasur."<br>";
 
 ?>

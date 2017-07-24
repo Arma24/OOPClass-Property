@@ -4,19 +4,19 @@
 class Bantal {
  
 	// property
-	public $jumlah;
-	public $tempat;
+	public $JumlahBantal;
+	public $TempatBantal;
 
 }
 
 $bantal = new Bantal();
 
 // memberikan nilai pada property
-$bantal->jumlah = 2;
-$bantal->tempat = "Disamping saya";
+$bantal->JumlahBantal = 2;
+$bantal->TempatBantal = "Disamping saya";
 
 // mencetak hasil
-echo "Jumlah bantal : ".$bantal->jumlah."<br>";
-echo "Tempat : ".$bantal->tempat."<br>";
+echo "Jumlah bantal : ".$bantal->JumlahBantal."<br>";
+echo "Tempat : ".$bantal->TempatBantal."<br>";
 
 ?>

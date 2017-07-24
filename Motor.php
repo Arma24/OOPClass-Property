@@ -4,19 +4,19 @@
 class Motor {
  
 	// property
-	public $jumlah;
-	public $jenis;
+	public $JumlahMotor;
+	public $JenisMotor;
 
 }
 
 $motor = new Motor();
 
 // memberikan nilai pada property
-$motor->jumlah = 5;
-$motor->jenis = "Metic dan bebek";
+$motor->JumlahMotor = 5;
+$motor->JenisMotor = "Metic dan bebek";
 
 // mencetak hasil
-echo "Jumlah motor : ".$motor->jumlah."<br>";
-echo "Jenis : ".$motor->jenis."<br>";
+echo "Jumlah motor : ".$motor->JumlahMotor."<br>";
+echo "Jenis : ".$motor->JenisMotor."<br>";
 
 ?>

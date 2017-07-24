@@ -4,19 +4,19 @@
 class Kalender {
  
 	// property
-	public $jumlah;
-	public $tempat;
+	public $JumlahKalender;
+	public $TempatKalender;
 
 }
 
 $kalender = new Kalender();
 
 // memberikan nilai pada property
-$kalender->jumlah = 2;
-$kalender->tempat = "Didekat pintu dapur dan didekat pintu masuk";
+$kalender->JumlahKalender = 2;
+$kalender->TempatKalender = "Didekat pintu dapur dan didekat pintu masuk";
 
 // mencetak hasil
-echo "Jumlah kalender : ".$kalender->jumlah."<br>";
-echo "Tempat : ".$kalender->tempat."<br>";
+echo "Jumlah kalender : ".$kalender->JumlahKalender."<br>";
+echo "Tempat : ".$kalender->TempatKalender."<br>";
 
 ?>
